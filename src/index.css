@@ -33,7 +33,7 @@ body {
 
 section {
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding-bottom: 2.5rem;
 }
 
@@ -208,20 +208,20 @@ ul {
 
 @media (max-width: 600px) {
     #root {
-        padding: 24px;
+        padding: .5rem;
     }
 
     .header {
         flex-direction: column;
-        gap: 16px;
+        gap: .5rem;
     }
 
     .fact-form {
-        padding: 16px;
+        padding: 1rem;
     }
 
     .fact {
-        padding: 12px 16px;
+        padding: .75rem 1rem;
     }
 }
 
@@ -234,7 +234,7 @@ ul {
 
 @media (max-width: 1000px) {
     body {
-        /*padding: 2rem 3rem;*/
+        padding: 2rem 3rem;
     }
 
     .fact-form {
